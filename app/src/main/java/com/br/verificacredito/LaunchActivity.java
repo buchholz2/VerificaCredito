@@ -8,7 +8,7 @@ import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class LaunchActivity extends AppCompatActivity {
 
     ImageView logo;
     TextView nome;
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void mostrarLogin() {
         finish();
-        Intent intent = new Intent(MainActivity.this, Activity_Login.class);
+        Intent intent = new Intent(LaunchActivity.this, Activity_Login.class);
         startActivity(intent);
     }
 }
